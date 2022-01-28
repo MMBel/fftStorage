@@ -31,16 +31,18 @@ C++ класс для получения АЧХ из монофоническо�
  Примечание: величина отклонения зависит от выбранной оконной функции и только от этого.
  
  Стандартный результат:
-> - Rectangular -17 dB (оконная функция по-умолчанию)
-> - Welch -22 dB 
-> - Bartlett -23 dB
-> - Hamming -24 dB
-> - Hann -25 dB
-> - Gaussian25 -25dB
-> - Blackman -28 dB
-> - BlackmanHarris -30 dB
-> - Gaussian35 -30 dB
-> - Gaussian45 -34 dB
+<table border=0>
+ <tr><td>Rectangular</td><td>-17 dB</td></tr>
+ <tr><td>Welch</td><td>-22 dB</td></tr>
+ <tr><td>Bartlett</td><td>-23 dB</td></tr>
+ <tr><td>Hamming</td><td>-24 dB</td></tr>
+ <tr><td>Hann</td><td>-25 dB</td></tr>
+ <tr><td>Gaussian25</td><td>-25 dB</td></tr>
+ <tr><td>Blackman</td><td>-28 dB</td></tr>
+ <tr><td>BlackmanHarris</td><td>-30 dB</td></tr>
+ <tr><td>Gaussian35</td><td>-30 dB</td></tr>
+ <tr><td>Gaussian45</td><td>-34 dB</td></tr>
+</table>
 
  Из этого явствует, что наибольшую точность определения амплитуды дает оконная функция <b>Gaussian45</b>
 #### Добавляем сэмплы:
