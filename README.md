@@ -85,6 +85,6 @@ for (unsigned  i=0; i<fstor.AmountPnt; ++i)
 #### Очищаем буфер если надо: 
 ```fstor.Clear();```
 
-Примеры использования см main.cpp
- 
+Примеры использования см main.cpp<br><br>
+<img src="fstor.png" width=100%>
  
